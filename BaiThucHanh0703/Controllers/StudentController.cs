@@ -13,7 +13,7 @@ namespace BaiThucHanh0703.Controllers
         {
             string strReturn = "Hello " + FullName;
             //gui du lieu ve view
-            ViewBag.hoa = strReturn;
+            ViewBag.abc = strReturn;
             return View();
             //tra ve danh sach cac sinh vien trong Database
         }
@@ -29,12 +29,12 @@ namespace BaiThucHanh0703.Controllers
             ViewBag.Tinhtong ="Tong cac chu so cua so "+Number +"=" +tong;
             return View();
         }
-         public IActionResult Gptbac2()
+         public IActionResult Giaiphuongtrinhbac2()
         {
             return View();
         }
         [HttpPost]
-         public IActionResult Gptbac2(string hesoA, string hesoB, string hesoC)
+         public IActionResult Giaiphuongtrinhbac2(string hesoA, string hesoB, string hesoC)
         {
             //khai bao bien
             double delta, x1, x2, a =0, b=0, c=0;
