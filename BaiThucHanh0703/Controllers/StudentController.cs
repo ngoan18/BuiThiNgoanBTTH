@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
+
 namespace BaiThucHanh0703.Controllers
 {
     public class StudentController : Controller
