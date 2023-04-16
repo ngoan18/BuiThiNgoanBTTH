@@ -18645,8 +18645,18 @@
   "RootNamespace": "BaiThucHanh1004",
   "Documents": [
     {
+      "FilePath": "c:\\BuiThiNgoanBTTH\\BaiThucHanh1004\\Views\\Student\\Delete.cshtml",
+      "TargetPath": "Views\\Student\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\BuiThiNgoanBTTH\\BaiThucHanh1004\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\BuiThiNgoanBTTH\\BaiThucHanh1004\\Views\\Student\\Index.cshtml",
+      "TargetPath": "Views\\Student\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18655,8 +18665,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\BuiThiNgoanBTTH\\BaiThucHanh1004\\Views\\Employee\\Details.cshtml",
+      "TargetPath": "Views\\Employee\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\BuiThiNgoanBTTH\\BaiThucHanh1004\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\BuiThiNgoanBTTH\\BaiThucHanh1004\\Views\\Employee\\Edit.cshtml",
+      "TargetPath": "Views\\Employee\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18670,6 +18690,21 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\BuiThiNgoanBTTH\\BaiThucHanh1004\\Views\\Student\\Detail.cshtml",
+      "TargetPath": "Views\\Student\\Detail.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\BuiThiNgoanBTTH\\BaiThucHanh1004\\Views\\Student\\Edit.cshtml",
+      "TargetPath": "Views\\Student\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\BuiThiNgoanBTTH\\BaiThucHanh1004\\Views\\Employee\\Creat.cshtml",
+      "TargetPath": "Views\\Employee\\Creat.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\BuiThiNgoanBTTH\\BaiThucHanh1004\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
@@ -18677,6 +18712,21 @@
     {
       "FilePath": "c:\\BuiThiNgoanBTTH\\BaiThucHanh1004\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\BuiThiNgoanBTTH\\BaiThucHanh1004\\Views\\Employee\\Delete.cshtml",
+      "TargetPath": "Views\\Employee\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\BuiThiNgoanBTTH\\BaiThucHanh1004\\Views\\Student\\Creat.cshtml",
+      "TargetPath": "Views\\Student\\Creat.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\BuiThiNgoanBTTH\\BaiThucHanh1004\\Views\\Employee\\Index.cshtml",
+      "TargetPath": "Views\\Employee\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],
