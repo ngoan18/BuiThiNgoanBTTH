@@ -5,9 +5,13 @@ namespace BaiThucHanh0703.Controllers
 {
     public class StudentController : Controller
     {
+        private readonly ApplicationDbContext_Context;
+    }
+    {
         public IActionResult Index()
         {
             return View();
+    
         }
         [HttpPost]
          public IActionResult Index(string FullName)
