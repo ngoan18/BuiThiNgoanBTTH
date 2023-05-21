@@ -1,4 +1,4 @@
-@model IEnumerable<BaiThucHanh04.Models.Student>
+@model IEnumerable<BaiThucHanh1004.Models.Student>
 
 @{
     ViewData["Title"] = "Index";
@@ -13,7 +13,7 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.FullName)
+                @Html.DisplayNameFor(model => model.StudentName)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Address)
@@ -25,7 +25,7 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.FullName)
+                @Html.DisplayFor(modelItem => item.StudentName)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Address)

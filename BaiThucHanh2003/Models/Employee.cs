@@ -1,4 +1,6 @@
+using System.ComponentModel.DataAnnotations;
 namespace BaiThucHanh2003.Models
+
 {
     public class Employee
     {
