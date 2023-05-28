@@ -13,7 +13,7 @@ namespace BaiThucHanh1704.Controllers
 {
     public class FacultyController : Controller
     {
-        private ExcelProcess _excelProcess = new ExcelProcess();
+        private StringProcess strPro = new StringProcess();
         private readonly MvcMovieContext _context;
 
         public FacultyController(MvcMovieContext context)
@@ -50,6 +50,7 @@ namespace BaiThucHanh1704.Controllers
         // GET: Faculty/Create
         public IActionResult Create()
         {
+        
             return View();
         }
 
@@ -161,6 +162,7 @@ namespace BaiThucHanh1704.Controllers
         {
           return (_context.Faculty?.Any(e => e.FacultyID == id)).GetValueOrDefault();
         }
+        private ExcelProcess _excelProcess = new ExcelProcess();
     public async Task<IActionResult> Upload()
         {
             return View();
