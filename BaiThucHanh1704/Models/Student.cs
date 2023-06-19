@@ -1,11 +1,16 @@
 using System.ComponentModel.DataAnnotations;
-namespace BaiThucHanh1704.Models;
-  public class Student
-   {
-    [Key]
-    public string StudentID { get; set; }
-    public string FullName {get; set; }
-    public string StudentEmail {get; set; }
-    public string StudentPhone {get; set; }
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace BaiThucHanh1704.Models
+{
+    [Table("Students")]
+    public class Student
+    {
+        [Key]
+        //Key cua class Student
+        public string StudentID { get; set;}
+        public string StudentName { get; set; }
+        public string FacultyID { get; set; }
     
-   }
+    }
+}
