@@ -15,5 +15,7 @@ namespace MvcMovie.Data
         }
 
         public DbSet<BaiThucHanh1704.Models.Customer> Customer { get; set; } = default!;
+
+        public DbSet<BaiThucHanh1704.Models.Faculty> Faculty { get; set; } = default!;
     }
 }

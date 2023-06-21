@@ -41,6 +41,24 @@ namespace BaiThucHanh1704.Migrations
 
                     b.ToTable("Customer");
                 });
+
+            modelBuilder.Entity("BaiThucHanh1704.Models.Faculty", b =>
+                {
+                    b.Property<string>("FacultyID")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("FacultyEmail")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("FacultyName")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("FacultyID");
+
+                    b.ToTable("Faculty");
+                });
 #pragma warning restore 612, 618
         }
     }
